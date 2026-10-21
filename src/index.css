@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --luna-ice: #A7EBF2;
+  --luna-cyan: #54ACBF;
+  --luna-slate: #26658C;
+  --luna-ocean: #023859;
+  --luna-night: #011C40;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #011C40;
+    color: #e2e8f0;
+    font-family: 'Plus Jakarta Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #011C40;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #26658C;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #54ACBF;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TELEGRAM PREMIUM",
+  "description": "TELEGRAM PREMIUM VIP Video Group access portal with instant verification and direct invite link.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
